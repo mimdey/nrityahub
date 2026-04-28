@@ -71,11 +71,11 @@ The following **required** functionality is completed:
 ## Video Walkthrough
 
 <div>
-    <a href="https://www.loom.com/share/1919dac2fb804aaeb8edd67cc324a5ac">
-      <p>nrityahub - 25 April 2026 - Watch Video</p>
+    <a href="https://www.loom.com/share/086c0cc6fb3d4c60bfa9a31d2a07af5f">
+      <p>nrityahub - 27 April 2026 - Watch Video</p>
     </a>
-    <a href="https://www.loom.com/share/1919dac2fb804aaeb8edd67cc324a5ac">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/1919dac2fb804aaeb8edd67cc324a5ac-15e6db2e9e8b848d-full-play.gif#t=0.1">
+    <a href="https://www.loom.com/share/086c0cc6fb3d4c60bfa9a31d2a07af5f">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/086c0cc6fb3d4c60bfa9a31d2a07af5f-93b0e7e34212cab7-full-play.gif#t=0.1">
     </a>
   </div>
 
