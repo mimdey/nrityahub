@@ -4,12 +4,12 @@ NrityaHub is a Bharatanatyam-themed community forum where users can create posts
 
 The project combines a culturally inspired visual design with interactive forum functionality and persistent backend storage using Supabase.
 
-## 🌐 Live Demo
+## Live Demo
 
 **Website:**
 https://rococo-bublanina-58cdbd.netlify.app/
 
-## ✨ Features
+## Features
 
 * Create and publish forum posts
 * Add titles, written content, and external image URLs
@@ -29,7 +29,7 @@ https://rococo-bublanina-58cdbd.netlify.app/
 * Persistent data storage using Supabase
 * Bharatanatyam-inspired visual design with custom styling and animations
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 
@@ -49,7 +49,7 @@ https://rococo-bublanina-58cdbd.netlify.app/
 * Git
 * GitHub
 
-## ⚙️ How It Works
+## How It Works
 
 NrityaHub uses React for the user interface and Supabase for persistent data storage.
 
@@ -88,7 +88,7 @@ npm run dev
 
 Vite will provide a local development URL where you can view the application.
 
-## 💡 What I Learned
+## What I Learned
 
 Building NrityaHub gave me experience creating a more interactive web application with persistent data and user-generated content.
 
@@ -109,7 +109,7 @@ Through this project, I practiced:
 
 One of the main goals of the project was to create a forum that felt visually connected to Bharatanatyam rather than using a generic social-media interface.
 
-## 🚀 Future Improvements
+## Future Improvements
 
 Possible future improvements include:
 
@@ -122,7 +122,7 @@ Possible future improvements include:
 * Notification features
 * Additional accessibility improvements
 
-## 🎥 Video Walkthrough
+## Video Walkthrough
 
 A walkthrough of the original project is available here:
 
@@ -135,7 +135,7 @@ A walkthrough of the original project is available here:
     </a>
   </div>
 
-## 👩‍💻 Author
+## Author
 
 **Mim Dey**
 
