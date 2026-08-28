@@ -1,74 +1,130 @@
-# Web Development Final Project - *NrityaHub*
+# NrityaHub
 
-Submitted by: **Mim Dey**
+NrityaHub is a Bharatanatyam-themed community forum where users can create posts, share performances, discuss mudras, explore Indian classical dance topics, and interact through comments and upvotes.
 
-This web app: **NrityaHub is a Bharatanatyam-themed forum where users can create posts, share performances, discuss mudras, and explore Indian classical dance culture. Users can interact through comments, upvotes, and categorized posts. The app features a visually rich Indian-inspired design and uses Supabase for backend data storage and Netlify for deployment.**
+The project combines a culturally inspired visual design with interactive forum functionality and persistent backend storage using Supabase.
 
-Time spent: **~12-15 hours spent in total**
+## 🌐 Live Demo
 
-## Required Features
+**Website:**
+https://rococo-bublanina-58cdbd.netlify.app/
 
-The following **required** functionality is completed:
+## ✨ Features
 
-- [x] **Web app includes a create form that allows the user to create posts**
-  - [x] Form requires users to add a post title
-  - [x] Forms allow users to add:
-    - [x] additional textual content
-    - [x] an image added as an external image URL
+* Create and publish forum posts
+* Add titles, written content, and external image URLs
+* Browse a feed of previously created posts
+* View post creation time and upvote count
+* Search posts by title
+* Sort posts by creation time or upvotes
+* Open individual posts for detailed viewing
+* Leave comments on posts
+* Upvote posts
+* Edit existing posts
+* Delete posts
+* Secret-key protection for editing and deleting posts
+* Organize posts by category
+* Category badges for easier browsing
+* Responsive layout for different screen sizes
+* Persistent data storage using Supabase
+* Bharatanatyam-inspired visual design with custom styling and animations
 
-- [x] **Web app includes a home feed displaying previously created posts**
-  - [x] Displays posts with:
-    - [x] creation time
-    - [x] title 
-    - [x] upvotes count
-  - [x] Clicking a post opens a separate post page
+## 🛠️ Tech Stack
 
-- [x] **Users can view posts in different ways**
-  - [x] Sort by:
-    - [x] creation time
-    - [x] upvotes count
-  - [x] Search posts by title
+### Frontend
 
-- [x] **Users can interact with each post**
-  - [x] View:
-    - [x] content
-    - [x] image
-    - [x] comments
-  - [x] Leave comments
-  - [x] Upvote posts
-    - [x] Unlimited upvotes supported
+* React
+* JavaScript
+* HTML5
+* CSS3
+* Vite
 
-- [x] **Posts can be edited or deleted**
-  - [x] Edit after creation
-  - [x] Delete from post page
+### Backend / Database
 
----
+* Supabase
 
-## Optional Features
+### Deployment & Tools
 
-- [x] **Pseudo-authentication**
-  - [x] Users must enter a secret key to edit/delete posts
-  - [x] Only the creator (with key) can modify posts
+* Netlify
+* Git
+* GitHub
 
-- [x] **Additional characteristics**
-  - [x] Category system (Question, Performance, History, etc.)
-  - [x] Styled badges for categories
-  - [x] Image support for posts
+## ⚙️ How It Works
 
----
+NrityaHub uses React for the user interface and Supabase for persistent data storage.
 
-## Additional Features
+Users can create forum posts with titles, content, images, and categories. Posts are stored in Supabase and displayed in the main feed, where users can search and sort content.
 
-- [x] Fully themed **Indian aesthetic UI** (gold, maroon, classical styling)
-- [x] Responsive and modern layout
-- [x] Smooth hover effects and animations
-- [x] Clean navigation and user experience
-- [x] Persistent backend using Supabase
-- [x] Deployed live using Netlify
+Each post has its own page where users can view additional content, leave comments, upvote the post, and manage it using a secret key created at the time of posting.
 
----
+The application is deployed using Netlify and includes routing configuration to support React navigation in production.
 
-## Video Walkthrough
+## 💻 Running the Project Locally
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/mimdey/nrityahub.git
+cd nrityahub
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Configure Environment Variables
+
+Create the required environment variables for your Supabase project.
+
+Sensitive credentials should be stored in environment variables and should never be committed to GitHub.
+
+### 4. Start the Development Server
+
+```bash
+npm run dev
+```
+
+Vite will provide a local development URL where you can view the application.
+
+## 💡 What I Learned
+
+Building NrityaHub gave me experience creating a more interactive web application with persistent data and user-generated content.
+
+Through this project, I practiced:
+
+* Building reusable React components
+* Creating forms for user-generated content
+* Connecting a React application to Supabase
+* Performing create, read, update, and delete operations
+* Implementing comments and upvote functionality
+* Building search and sorting functionality
+* Managing application routing
+* Using environment variables securely
+* Debugging deployment and configuration issues
+* Handling React routing with Netlify
+* Designing a responsive interface around a specific cultural theme
+* Using visual design, typography, color, and interaction to create a distinct user experience
+
+One of the main goals of the project was to create a forum that felt visually connected to Bharatanatyam rather than using a generic social-media interface.
+
+## 🚀 Future Improvements
+
+Possible future improvements include:
+
+* Full user authentication
+* User profiles
+* Saved or bookmarked posts
+* Improved moderation tools
+* More advanced filtering
+* Improved image upload support
+* Notification features
+* Additional accessibility improvements
+
+## 🎥 Video Walkthrough
+
+A walkthrough of the original project is available here:
 
 <div>
     <a href="https://www.loom.com/share/086c0cc6fb3d4c60bfa9a31d2a07af5f">
@@ -79,34 +135,11 @@ The following **required** functionality is completed:
     </a>
   </div>
 
----
+## 👩‍💻 Author
 
-## Netlify Link
-https://rococo-bublanina-58cdbd.netlify.app/ 
+**Mim Dey**
 
-## Notes
+Computer Science student interested in frontend development, web design, and creative technology.
 
-Challenges encountered:
-- Fixing Git conflicts and deployment issues
-- Debugging Supabase environment variables on Netlify
-- Handling React routing issues with Netlify redirects
-- Ensuring images load correctly using valid URLs
-- Designing a culturally themed UI that looks polished and unique
+**GitHub:** https://github.com/mimdey
 
----
-
-## License
-
-     Copyright [2026] [Mim Dey]
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
